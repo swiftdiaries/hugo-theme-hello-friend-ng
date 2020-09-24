@@ -4,36 +4,36 @@
 # Generic
 #
 [translations]
-other = "Translations"
+other = "Çeviriler"
 
 [postAvailable]
-other = "Also available in"
+other = "Ayrıca"
 
 
 # 404.html
 #
 [archives]
-other = "Archives"
+other = "Arşiv"
 
 [home]
-other = "Home"
+other = "Ana Sayfa"
 
 [notFound]
-other = "Oops, page not found…"
+other = "Sayfa bulunamadı…"
 
 
 # posts/single.html
 #
 [readingTime]
-one   = "One minute"
-other = "{{ .Count }} minutes"
+one   = "Bir dakika"
+other = "{{ .Count }} dakika"
 
 [tableOfContents]
-other = "Table of Contents"
+other = "İçindekiler"
 
 [wordCount]
-one   = "One Word"
-other = "{{ .Count }} Words"
+one   = "One Kelime"
+other = "{{ .Count }} Kelime"
 
 [lastModified]
-other = "Last updated"
+other = "Son güncelleme"
