@@ -14,9 +14,9 @@
         <article>
             <div class="post-meta">
                 {{ if $.Site.Params.ShowReadingTime }}
-                    <span class="post-read-time"
-                    >🕙 {{ .ReadingTime }} minute(s)</span
-                    >
+                    <span class="post-read-time">
+                        🕙 {{ .ReadingTime }} minute(s)
+                    </span>
                 {{ end }}
             </div>
             <h2 class="post-title"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
